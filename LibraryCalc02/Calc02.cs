@@ -12,7 +12,7 @@ namespace LibraryCalc02
             return a + b;
         }
         //Soma com 3 parcelas
-        public static long Soma2(int a, int b, int c)
+        public static long Soma(int a, int b, int c)
         {
             return a + b + c;
         }
@@ -20,6 +20,11 @@ namespace LibraryCalc02
         public static long Subtracao(int a, int b)
         {
             return a - b;
+        }
+        //Subtração com dois subtraendos
+        public static long Subtracao(int a, int b, int c)
+        {
+            return a - b - c;
         }
         //Multiplicação
         public static long Multiplicacao(int a, int b)
