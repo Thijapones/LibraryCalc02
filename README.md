@@ -8,7 +8,7 @@ Install-Package LibraryCalc02 -Version 1.0.3
 
 ## How to Use
 
-'''c$
+```CS
 using LibraryCalc02;
 using System;
 
@@ -26,4 +26,4 @@ namespace Example
         }
      }
 }
-'''
+```
