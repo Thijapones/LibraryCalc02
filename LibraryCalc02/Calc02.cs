@@ -31,6 +31,11 @@ namespace LibraryCalc02
         {
             return a * b;
         }
+        //Multiplicação com 3 fatores
+        public static long Multiplicacao(int a, int b, int c)
+        { 
+            return a * b * c;
+        }
         //Divisão
         public static double Divisao(int a, int b)
         {
